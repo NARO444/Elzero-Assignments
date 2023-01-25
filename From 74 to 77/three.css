@@ -1,0 +1,24 @@
+span {
+    width: 50px;
+    height: 50px;
+    background-color: #EEE;
+    border: 5px solid black;
+    border-right-color: transparent;
+    margin: 50px auto;
+    display: block;
+    border-radius: 50%;
+    animation-name: spin;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0turn);
+    }
+
+    100% {
+        transform: rotate(1turn);
+    }
+}

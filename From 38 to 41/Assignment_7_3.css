@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+    margin: auto;
+}
+
+.parent {
+    width: 550px;
+    font-family: sans-serif;
+    position: relative;
+}
+
+.basic_bg {
+    background-color: #eeeeee;
+    width: 250px;
+    height: 300px;
+    display: inline-block;
+    position: relative;
+}
+
+.pro_bg {
+    background-color: #eeeeee;
+    width: 250px;
+    height: 300px;
+    display: inline-block;
+    position: relative;
+}
+
+.basic {
+    background-color: #03a9f4;
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 20px;
+    left: 25px;
+}
+
+.pro {
+    background-color: #03a9f4;
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 20px;
+    left: 25px;
+}
+
+.free {
+    background-color: #dddddd;
+    color: black;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    padding: 80px 0;
+    font-size: 40px;
+    position: absolute;
+    top: 80px;
+    left: 20px;
+}
+
+.p30 {
+    background-color: #dddddd;
+    color: black;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    font-size: 40px;
+    padding: 80px 0;
+    position: absolute;
+    top: 80px;
+    left: 20px;
+}
+
+.or {
+    height: 300px;
+    width: 1px;
+    background-color: #03a9f4;
+    display: inline-block;
+    margin: 18px;
+    position: relative;
+    top: 19px;
+    z-index: 1;
+}
+
+.or::before {
+    content: "Or";
+    color: white;
+    background-color: #03a9f4;
+    width: 20px;
+    text-align: center;
+    padding: 6px 2.5px;
+    font-size: 10px;
+    font-weight: bold;
+    border-radius: 50%;
+    position: absolute;
+    right: 0;
+    top: 140px;
+    left: -12px;
+}

@@ -1,0 +1,38 @@
+.onee {
+    text-shadow: 1px 1px 0 red, 2px 2px 0 blue, 3px 3px 0 purple;
+}
+
+.one {
+    text-transform: uppercase;
+}
+
+.two {
+    text-transform: capitalize;
+}
+
+.three {
+    text-transform: lowercase;
+}
+
+div {
+    max-width: 400px;
+    background-color: #EEE;
+    padding: 20px;
+}
+
+.three3 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+a {
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px;
+    background-color: darkcyan;
+    color: white;
+    text-transform: capitalize;
+
+}

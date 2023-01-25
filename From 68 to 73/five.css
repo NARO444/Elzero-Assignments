@@ -1,0 +1,45 @@
+div {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    margin: 20px auto;
+    transition: 1s 0s;
+    transform-style: preserve-3d;
+}
+
+div::before {
+    content: 'Front';
+    background-color: #fa3664;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    color: white;
+    position: absolute;
+    left: 0;
+    top: 0;
+
+}
+
+div::after {
+    content: 'Back';
+    background-color: #1692fc;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    color: white;
+    position: absolute;
+    left: 0;
+    top: 0;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+}
+
+div:hover {
+    transform: rotateY(180deg);
+}

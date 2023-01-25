@@ -1,0 +1,61 @@
+:root {
+    --mainColor: #DDD;
+    --Margin: 10px;
+    --Padding: 20px;
+}
+
+.page {
+    background-color: #eee;
+    overflow: hidden;
+    font-family: sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.links,
+.logo {
+    background-color: var(--mainColor);
+    padding: var(--Padding);
+    margin: var(--Margin);
+    width: calc(100% / 20);
+    display: flex;
+    justify-content: center;
+}
+
+.links {
+    list-style-type: none;
+    flex-grow: 2;
+    justify-content: flex-end;
+}
+
+li {
+    padding-left: 20px;
+}
+
+.main-area {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-area div {
+    background-color: var(--mainColor);
+    margin: var(--Margin);
+    padding: var(--Padding);
+    width: calc(100% / 5);
+    height: 400px;
+}
+
+.content {
+    flex-grow: 2;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--mainColor);
+    margin: var(--Margin);
+    padding: var(--Padding);
+}
